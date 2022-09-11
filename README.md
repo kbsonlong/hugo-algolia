@@ -7,8 +7,11 @@ An alternative to the [Docsearch](https://community.algolia.com/docsearch/) plug
 
 Install `hugo-algolia` from [npm](https://npmjs.org)
 
+#### 如果slug存在则替换uri路径
+
 ```
-npm install hugo-algolia
+# npm install hugo-algolia
+npm install git+https://github.com/kbsonlong/hugo-algolia.git -g 
 ```
 
 Or
